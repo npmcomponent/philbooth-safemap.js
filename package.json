@@ -1,33 +1,14 @@
 {
-    "name": "safemap",
-    "version": "0.2.0",
-    "author": "Phil Booth <pmbooth@gmail.com>",
-    "description": "A tiny, safe, ES3-compliant map/dictionary implementation.",
-    "contributors": [
-        { "name": "Phil Booth", "email": "pmbooth@gmail.com" },
-        { "name": "Valeri Bogdanov" }
-    ],
-    "main": "./src/safemap.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/philbooth/safemap.js"
-    },
-    "keywords": [
-        "map",
-        "dictionary",
-        "associative array",
-        "data structure"
-    ],
-    "devDependencies": {
-        "jake": "0.5.x",
-        "jshint": "1.1.x",
-        "mocha": "1.9.x",
-        "chai": "1.5.x",
-        "uglify-js": "2.2.x"
-    },
-    "license": "MIT",
-    "scripts": {
-        "test": "jake test"
-    }
+  "name": "philbooth-safemap.js",
+  "description": "A tiny, safe, ES3-compliant map/dictionary implementation.",
+  "version": "0.1.4",
+  "keywords": [
+    "map",
+    "dictionary",
+    "associative array",
+    "data structure"
+  ],
+  "main": "src/safemap.min.js",
+  "dependencies": {},
+  "license": "MIT"
 }
-
